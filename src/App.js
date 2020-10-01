@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import TextInput from './inputs/TextInput';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <p>Nutricionist Software</p>
+        <p>Nutritionist Software</p>
+        <TextInput/>
       </div>
     );
   }
